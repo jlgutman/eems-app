@@ -58,8 +58,6 @@ classDiagram
         COMPLETED
         ON_HOLD
         CANCELLED
-        +getDbValue() String
-        +fromDbValue(String value) ProjectStatus
     }
 
     %% Inheritance

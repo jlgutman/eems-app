@@ -158,7 +158,7 @@ sequenceDiagram
     User  ->>  CLI : 1. enter projectId
     CLI   ->>  PS  : 2. calculateProjectHRCost(projectId)
 
-    %% Step 1 — load the project
+    %% Step 1 — load the project 
     PS    ->>  PR  : 3. findById(projectId)
     PR    ->>  DB  : 4. SELECT * FROM Project WHERE id = ?
     DB   -->>  PR  : 5. ResultSet

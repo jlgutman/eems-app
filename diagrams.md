@@ -6,7 +6,7 @@
 
 ```mermaid
 classDiagram
-    direction TB
+    direction LR
 
     class BaseEntity {
         <<abstract>>
